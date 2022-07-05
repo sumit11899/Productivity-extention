@@ -1,0 +1,320 @@
+  /* -------------------new css--------------------- */
+body{
+  background-image:url(background_2.jpg) ;
+  /* Image is centered vertically and horizontally at all times */
+background-position: center center;
+
+/* Image doesn't repeat */
+background-repeat: no-repeat;
+
+/* Makes the image fixed in the viewport so that it doesn't move when 
+   the content height is greater than the image height */
+background-attachment: fixed;
+
+/* This is what makes the background image rescale based on its container's size */
+background-size: cover;
+
+/* Pick a solid background color that will be displayed while the background image is loading */
+background-color:#464646;
+
+/* SHORTHAND CSS NOTATION
+ * background: url(background-photo.jpg) center center cover no-repeat fixed;
+ */
+
+}
+  img{
+    padding-top: 120px;
+    justify-content: flex-end;
+    align-items: stretch;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.head{
+  text-align: center;
+  text-shadow: 3px;
+  font-size: 50px;
+  font-family: cursive;
+}
+.wrapper {
+  text-align: center;
+}
+
+.wrapper2{
+text-align: right;
+}
+
+
+.title {
+  font-family:cursive;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #2c2c2c;
+  letter-spacing: .05em;
+  text-shadow: 
+    4px 4px 0px #d5d5d5, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+  
+}
+.weather{
+color:#c0dfd9;
+position: absolute;
+left: 10px;
+top:13px;
+font-family: “Century Gothic”, CenturyGothic, AppleGothic, sans-serif;
+font-size: 18px;
+text-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+div.taskBar {
+  position: relative;
+  left: 30px;
+  height: 50px;
+}
+
+input[type="text"] {
+  color: #c5d5cb;
+  outline:none;
+  font-size: 18px;
+  opacity: 1.0;
+  width: 75%;
+  border: none;
+  left: -60.5px;
+  height: 20px;
+  background-color: rgba(0,0,0,.05);
+  border-bottom: solid navy;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  z-index: 2000;
+  padding: 0px 14px;
+  font-style:normal;
+}
+input:focus{
+background-color: rgba(0,0,0,0);
+}
+
+.button {
+  background-color: lightgrey;
+  position: absolute;
+  top:-5%;
+  right:0;
+  border-bottom: solid rgba(0, 0, 128, 0.2);
+  border-top: none;
+  border-right:none;
+  border-left:none;
+  text-align: right;
+  color: black;
+  padding: 2.55px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition: all .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.button:hover {
+    border-bottom: solid navy;
+}
+.button:focus{
+outline: 0;
+}
+.white{
+position: absolute;
+left: 12px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: white;
+}
+.white:hover{
+  padding-top:10px;
+}
+.black{
+position: absolute;
+left: 0px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: black;
+}
+.black:hover{
+  padding-top:10px;
+}
+.grey{
+position: absolute;
+left: 24px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: grey;
+}
+.grey:hover{
+padding-top:10px;
+}
+
+.green{
+position: absolute;
+right: 0;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #49412c;
+}
+.green:hover{
+padding-top:10px;
+}
+.yellow{
+position: absolute;
+right: 12px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #aa863a;
+}
+.yellow:hover{
+padding-top:10px;
+}
+.red{
+position: absolute;
+right: 24px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #963019;
+}
+.red:hover{
+padding-top: 10px;
+}
+.pink{
+position: absolute;
+right: 48px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #FFB2AE;
+}
+.pink:hover{
+padding-top: 10px;
+}
+.cyan{
+position: absolute;
+right: 60px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #20b2aa;
+}
+.cyan:hover{
+padding-top: 10px;
+}
+
+.blue{
+position: absolute;
+right: 36px;
+bottom: 0;
+border:none;
+width:10px;
+height:10px;
+background-color: #62bcfa;
+}
+.blue:hover{
+padding-top:10px;
+}
+.removee {
+  position: relative;
+  left: 90%;
+  padding-top: -5px;
+  background: #ddd;
+  opacity: .4;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+
+
+
+}
+.removee:hover{
+  opacity: 1.0;
+}
+
+.dateSty {
+  text-align: center;
+}
+.todos{
+position: relative;
+text-align: left;
+margin-top: -20px;
+margin-left: -10px;
+margin-bottom: 100px;
+}
+.motivation{
+position: absolute;
+bottom: 0;
+left: 35%;
+background-color: transparent;
+border: none;
+}
+.motivation:hover{
+border-bottom: solid 3px navy;
+}
+.motivation:focus{
+outline: 0;
+}
+.loader {
+border: 4px solid #f3f3f3; /* Light grey */
+border-top: 4px solid #3498db; /* Blue */
+border-radius: 50%;
+position: absolute;
+top:30px;
+left:20px;
+width: 5px;
+height:5px;
+animation: spin 2s linear infinite;
+}
+
+/* @keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+} */
+
+p{
+text-align: center;
+margin-top: -20px;
+}
+.city{
+top:30px;
+position: absolute;
+color: inherit;
+font-size: 11px;
+
+left: 9px;
+}
+.description{
+
+position: absolute;
+color:#DDDDDD;
+font-size: 11px;
+
+left:9px;
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 14px;
+
+}

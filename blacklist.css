@@ -1,0 +1,61 @@
+body{
+    background-image:url(background_2.jpg) ;
+    /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+   justify-content: center;
+   text-align: center;
+}
+.logo{
+display: flex;
+justify-content: center;
+margin-top: 70px;
+}
+img{
+margin: 20px;
+width: 50px;
+height: 50px;
+}
+
+
+h1{
+    font-size: 40px;
+    border-bottom:4px;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+p{
+    font-size: 20px;
+    border-bottom:4px;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+

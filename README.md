@@ -1,2 +1,1 @@
-# Productivity-extention
-a chrome extention
+# Productivity-Management-Extension
